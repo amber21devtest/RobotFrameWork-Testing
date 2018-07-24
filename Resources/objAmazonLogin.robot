@@ -15,7 +15,7 @@ Library    BuiltIn
 ${Browser}  chrome
 ${url}   https://www.amazon.in/
 ${userName}  amber21devtest@gmail.com    
-${passWord}  Welcome_01
+${passWord}  passwrd
 
 
 *** Keywords ***
