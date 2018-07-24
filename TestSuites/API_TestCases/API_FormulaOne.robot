@@ -25,14 +25,31 @@ ${season}  2008
 ${round}  1
 
 *** Test Cases ***
-Test
-  Fetch Formula one results for different Years  f1  2008  1
-
+Test the Webservices of Formula One 
+  Test response for successful HTTP requests  f1  2008  1
+  Test The XML Response of the Request  f1  2008  1
+  
 *** Keywords ***
 
-Fetch Formula one results for different Years
+Test response for successful HTTP requests
     [Arguments]    ${series}  ${season}  ${round}
     ${response}=  Get Request    ergast    /${series}/${season}/${round}
     Should Be Equal    ${response.status_code}     ${200}
+    
+Test The XML Response of the Request
+    [Arguments]    ${series}  ${season}  ${round}
+    ${response}=  Get Request    ergast    /f1/seasons
+    # Parse response to XML element structure
+    ${xml_response}=    Parse XML    ${response.text}
+     ${xml_response_1}=    To Json    ${response.text}
+    log  ${xml_response_1}
+    #json
+    # Get and assert element 'status' from the XML structure
+    #${status_element}=    Get Element Text    ${xml_response}    season
+   # Should Be Equal As Strings    ${status_element}    OK         
+            
+            
+            
+            
             
     
