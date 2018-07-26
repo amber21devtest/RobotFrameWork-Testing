@@ -6,8 +6,8 @@
 #Test the Checkout fucntionality test case
 ###############################################
 *** Settings ***
-Resource    ../../Resources/objPageAmazonHome.robot
-Resource    ../../Resources/objAmazonLogin.robot
+Resource  ../../Resources/PageObjects/objAmazonLogin.robot
+Resource  ../../Resources/PageObjects/objPageAmazonHome.robot
 
 *** Test Cases ***
 Log into the Application with valid id and password
