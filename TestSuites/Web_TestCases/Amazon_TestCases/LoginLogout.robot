@@ -8,8 +8,8 @@
 
 *** Settings ***
 Documentation    This Suite is to Test Product Checkout functionality  
-Resource  ../../Resources/PageObjects/objAmazonLogin.robot
-Resource  ../../Resources/PageObjects/objPageAmazonHome.robot
+Resource    ../../../Resources/PageObjects/objAmazonLogin.robot
+Resource    ../../../Resources/PageObjects/objPageAmazonHome.robot
 
 *** Test Cases ***
 This is to test the Log in
