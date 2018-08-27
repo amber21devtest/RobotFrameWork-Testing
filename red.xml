@@ -2,9 +2,10 @@
 <projectConfiguration>
     <configVersion>2</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
-    <referencedLibrary type="PYTHON" name="Selenium2Library" path="C:/Python27/Lib/site-packages"/>
     <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/Python27/Lib/site-packages"/>
     <referencedLibrary type="PYTHON" name="REST" path="C:/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="JMeterLib" path="C:/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library" path="C:/Python27/Lib/site-packages"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>

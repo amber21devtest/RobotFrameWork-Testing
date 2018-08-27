@@ -1,0 +1,67 @@
+2018-08-25 23:33:21,019 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-08-25 23:33:21,049 INFO o.a.j.JMeter: Loading user properties from: C:\Jmeter\bin\user.properties
+2018-08-25 23:33:21,050 INFO o.a.j.JMeter: Loading system properties from: C:\Jmeter\bin\system.properties
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: java.version=1.8.0_161
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: os.name=Windows 10
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: os.arch=amd64
+2018-08-25 23:33:21,059 INFO o.a.j.JMeter: os.version=10.0
+2018-08-25 23:33:21,060 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-08-25 23:33:21,060 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-08-25 23:33:21,060 INFO o.a.j.JMeter: Available Processors =4
+2018-08-25 23:33:21,066 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-08-25 23:33:21,067 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-08-25 23:33:21,067 INFO o.a.j.JMeter: JMeterHome=C:\Jmeter
+2018-08-25 23:33:21,067 INFO o.a.j.JMeter: user.dir  =D:\00_Workspace\04_RobotFrameWork\01_Python\RobotFrameWork-Testing
+2018-08-25 23:33:21,068 INFO o.a.j.JMeter: PWD       =D:\00_Workspace\04_RobotFrameWork\01_Python\RobotFrameWork-Testing
+2018-08-25 23:33:21,069 INFO o.a.j.JMeter: IP: 192.168.46.2 Name: DESKTOP-T53RC0H FullName: DESKTOP-T53RC0H
+2018-08-25 23:33:21,074 INFO o.a.j.s.FileServer: Default base='D:\00_Workspace\04_RobotFrameWork\01_Python\RobotFrameWork-Testing'
+2018-08-25 23:33:21,082 INFO o.a.j.s.FileServer: Set new base='D:\00_Workspace\07_Jmeter\00_SampleTestCases'
+2018-08-25 23:33:21,344 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-08-25 23:33:21,370 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-08-25 23:33:21,379 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-08-25 23:33:21,391 INFO o.a.j.s.SaveService: Loading file: D:\00_Workspace\07_Jmeter\00_SampleTestCases\firstTestCase.jmx
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-08-25 23:33:21,474 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-08-25 23:33:21,508 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-08-25 23:33:21,516 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-08-25 23:33:21,518 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-08-25 23:33:21,518 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-08-25 23:33:21,524 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-08-25 23:33:21,524 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-08-25 23:33:22,103 INFO o.a.j.JMeter: Running test (1535220202102)
+2018-08-25 23:33:22,176 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2018-08-25 23:33:22,176 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Users.
+2018-08-25 23:33:22,176 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-08-25 23:33:22,177 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 perThread=200.0 delayedStart=false
+2018-08-25 23:33:22,186 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-08-25 23:33:22,186 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-08-25 23:33:22,189 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2018-08-25 23:33:22,226 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-T53RC0H
+2018-08-25 23:33:22,237 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-08-25 23:33:22,250 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-08-25 23:33:22,250 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-08-25 23:33:22,250 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-08-25 23:33:22,250 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-08-25 23:33:22,391 INFO o.a.j.t.JMeterThread: Thread started: Users 1-2
+2018-08-25 23:33:22,488 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-1
+2018-08-25 23:33:22,489 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
+2018-08-25 23:33:22,515 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-2
+2018-08-25 23:33:22,515 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-2
+2018-08-25 23:33:22,592 INFO o.a.j.t.JMeterThread: Thread started: Users 1-3
+2018-08-25 23:33:22,692 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-3
+2018-08-25 23:33:22,693 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-3
+2018-08-25 23:33:22,792 INFO o.a.j.t.JMeterThread: Thread started: Users 1-4
+2018-08-25 23:33:22,870 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-4
+2018-08-25 23:33:22,871 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-4
+2018-08-25 23:33:22,992 INFO o.a.j.t.JMeterThread: Thread started: Users 1-5
+2018-08-25 23:33:23,082 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-5
+2018-08-25 23:33:23,083 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-5
+2018-08-25 23:33:23,084 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-08-25 23:33:23,087 INFO o.a.j.r.Summariser: summary =      5 in 00:00:01 =    5.1/s Avg:   116 Min:    77 Max:   196 Err:     0 (0.00%)
